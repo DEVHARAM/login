@@ -1,11 +1,11 @@
-package login.login.controller;
+package login.login.web_controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class WebController {
+public class webController {
 
     @RequestMapping(value = "/webController.do")
     public String helloWorld(ModelMap modelMap) {
